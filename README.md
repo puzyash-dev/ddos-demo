@@ -19,6 +19,7 @@ Instead of traditional SSH or Bastion hosts, this lab utilizes:
 * **VPC Interface Endpoints (PrivateLink):** Allows the private instance to communicate with AWS Systems Manager (SSM) entirely over the internal AWS backbone.
 
 ```text
+
                      [ Public Internet ]
                               │
              ┌────────────────┴────────────────┐
